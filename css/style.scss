@@ -341,7 +341,7 @@ a{
     }
 }
 
-footer{
+.footer__container{
     display: block;
     align-items: center;
     text-align: center;
@@ -373,6 +373,10 @@ footer{
                     color: #FEFCF7;
                 }        
             }
+           
+        }
+        .footer_icons{
+            gap: 10px;
         }
     }     
 }

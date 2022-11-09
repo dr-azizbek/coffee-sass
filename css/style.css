@@ -341,7 +341,7 @@ a {
   color: #FEFCF7;
 }
 
-footer {
+.footer__container {
   display: block;
   align-items: center;
   text-align: center;
@@ -350,21 +350,21 @@ footer {
   width: 1280px;
   background: #2C343E;
 }
-footer .footer {
+.footer__container .footer {
   position: relative;
   display: flex;
   align-items: flex-start;
   top: 50px;
   justify-content: space-around;
 }
-footer .footer .footer__styl {
+.footer__container .footer .footer__styl {
   margin-right: 100px;
   display: flex;
   text-align: center;
   gap: 10px;
   margin-top: 5px;
 }
-footer .footer .footer__styl li a {
+.footer__container .footer .footer__styl li a {
   font-family: "Barlow";
   font-style: normal;
   font-weight: 700;
@@ -373,6 +373,9 @@ footer .footer .footer__styl li a {
   color: #83888F;
   text-align: center;
 }
-footer .footer .footer__styl li a:hover {
+.footer__container .footer .footer__styl li a:hover {
   color: #FEFCF7;
+}
+.footer__container .footer .footer_icons {
+  gap: 10px;
 }/*# sourceMappingURL=style.css.map */
