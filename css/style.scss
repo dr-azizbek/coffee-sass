@@ -44,10 +44,10 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    .nav-list{
-        display: flex;
-        gap: 10px;
-        .nav-item{
+       
+        .nav__styl{
+            display: flex;
+            gap: 10px;
         a{
             font-family: 'Barlow';
             font-style: normal;
@@ -57,9 +57,8 @@ a{
             color: #83888F;   
             text-align: center;      
             &:hover{
-                color: #FEFCF7;
-            }  
-        }      
+                color: #333D4B
+            }        
 
     }
 }
